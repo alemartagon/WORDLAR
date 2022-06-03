@@ -1,0 +1,25 @@
+<!--<div class="linea">
+			<div class="cuadrado C<?php echo $row['res1'];?>" > <?php echo $row['pal1'];?></div>
+			<div class="cuadrado C<?php echo $row['res2'];?>" > <?php echo $row['pal2'];?></div>
+			<div class="cuadrado C<?php echo $row['res3'];?>" > <?php echo $row['pal3'];?></div>
+			<div class="cuadrado C<?php echo $row['res4'];?>" > <?php echo $row['pal4'];?></div>
+			<div class="cuadrado C<?php echo $row['res5'];?>" > <?php echo $row['pal5'];?></div>
+    	</div>-->
+
+listado palabras drogadictas:
+chute La acción de administrarse la droga
+crack A partir de las hojas de coca se obtiene el clohidrato de cocaína, principal sustancia presente en la droga que conocemos como cocaína. Este compuesto puede transformarse en una base libre (base libre del clohidrato de cocaína). Esto es lo que se conoce por crack.
+polvo La cocaína en polvo (clorhidrato de cocaína) es un estimulante extraido de las hojas de la planta de coca.
+tripi Se trata de cartones secantes donde va impregnado el LSD. El papel se chupa hasta disolverse.
+speed Es una de las anfetaminas popularmente más conocidas, de la familia de las feniletilaminas. El peligro de esta sustancia es que suele estar bastante adulterada. Puede presentarse como una pasta o como comprimidos.
+droga Sustancia que, al ser introducida en el organismo, actúa sobre el sistema nervioso central y le provoca cambios que pueden afectar a la conducta, al estado de ánimo o a la percepción de manera que predispone a repetir su consumo.
+maria La marihuana es una mezcla gris-verdosa de hojas y flores secas y trituradas del cannabis sativa, la planta del cáñamo.
+dopar Administrar fármacos o sustancias estimulantes para potenciar artificialmente el rendimiento del organismo.
+Comna Espacio territorial donde se realizan las intervenciones universales, selectivas o indicadas de la temática de drogas.
+narco
+fardo
+kilos
+porro
+capos
+polen
+chino

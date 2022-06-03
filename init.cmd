@@ -1,0 +1,1 @@
+docker exec -it wordlar /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 12345Ab## -i /var/opt/mssql/backup/init.sql

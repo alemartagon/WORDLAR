@@ -1,0 +1,158 @@
+html,
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+  background: #fff;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#comoJugar{
+  display: flex;
+  justify-content: left;
+  margin: auto;
+}
+
+#sobreNosotros{
+  display: flex;
+  justify-content: right;
+  margin: auto;
+}
+
+h1 {
+  color: #000;
+  margin-top: 0;
+    padding-top: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 2.75rem);
+  grid-template-rows: repeat(6, 2.75rem);
+  gap: 0.25rem;
+}
+
+.grid-element-input {
+  appearance: none;
+  font-family: inherit;
+  background: transparent;
+  outline: none;
+  border: 1px solid #333;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+  vertical-align: baseline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.grid-element {
+  position: relative;
+}
+
+.grid-element-animation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: background ease-out var(--delay), transform ease-out var(--delay);
+  background: rgba(0, 0, 0, 0);
+  transform: rotateX(90deg);
+}
+
+#keyboard-cont {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  display: flex;
+}
+
+.second-row {
+  margin: 0.5rem 0;
+}
+
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+body {
+  height: 100vh;
+  scroll-behavior: unset;
+  overflow: hidden;
+}
+
+.C0 {
+  background-color: #787c7e;
+}
+
+.C1 {
+  background-color: #c9b458;
+}
+
+.C2 {
+  background-color: #6aaa64;
+}
+
+.wordle {
+  width: 100%;
+  max-width: 375px;
+}
+
+.cuadrado {
+  width: 65px;
+  height: 65px;
+  font-size: 35px;
+  float: left;
+  margin: 5px;
+  border: 2px solid #787c7e;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font: sans-serif;
+  font-weight: bold;
+}
+
+.linea {
+  width: 100%;
+  float: left;
+}
+
+.esconder{
+  display: none ;
+}
+
+#pie-de-pagina{
+position: fixed;
+width: 100%;
+height: 30px;
+bottom: 0;
+font-style: italic;
+}
